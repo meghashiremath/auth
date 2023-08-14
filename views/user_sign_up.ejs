@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="/css/common.css">
+<script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+
+<form action="/users/create" class="signin-form" id="verify-form" method="POST">
+ <h1>Sign-Up</h1>
+   <div class="form-group">
+       <label for="exampleInputPassword1">Name</label>
+       <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+   </div>
+   <div class="form-group">
+     <label for="exampleInputEmail1">Email address</label>
+     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+     <small id="emailHelp"  class="form-text text-muted">We'll never share your email with anyone else.</small>
+   </div>
+   <div class="form-group">
+     <label for="exampleInputPassword1">Password</label>
+     <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+   </div>
+   <div class="form-group">
+       <label for="exampleInputPassword1">Confirm Password</label>
+       <input type="password" name="confirm_password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password" required>
+   </div>
+   <button type="submit" class="btn btn-primary">Sign-Up</button>
+</form>
+
+<div class="break">
+ <hr id="onee">
+ <span>OR</span>
+ <hr id="onee">
+</div>
+ 
+<div class="google-auth">
+ <a href="/users/auth/google">
+   <img src="https://image.flaticon.com/icons/svg/2702/2702602.svg">
+ </a>
+</div>
+
+<script src="/js/reChapcha.js"></script>

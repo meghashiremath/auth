@@ -1,0 +1,16 @@
+<!-- <link rel="stylesheet" href="/css/home.css"> -->
+<% if(locals.user) {%>
+    <div class="container">
+        <h1> Helloo <span> <%= user.name %> </span> </h1>
+        <h1>Visitor! welcom</h1>
+        <h3>To Reset password check top right corner.</h3>
+    </div>
+    
+<% } else {%>
+    <div class="container">
+        <h1 id="heading">Welcome</h1>
+        <h2>A complete authentication system which can be used as a starter code for creating any
+            new application. </h2>
+    </div>
+    
+<%}%>
