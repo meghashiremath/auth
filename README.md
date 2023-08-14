@@ -12,10 +12,10 @@ Nodemailer
 
 
 # Prerequisites 
-NodeJS 
-nodemailer id and password
-mongoose connection
-google authentication client id
+NodeJS ,
+nodemailer id and password,
+mongoose connection,
+google authentication client id.
 
 
 # Installing 
