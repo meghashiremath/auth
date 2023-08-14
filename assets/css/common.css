@@ -1,0 +1,38 @@
+
+.signin-form{
+    margin-left: 30%;
+    padding: 20px;
+}
+h1{
+    padding: 10px;
+    margin-left: 15%;
+}
+.form-control{
+    width: 400px;
+}
+.forgotPass{
+    color: red;
+}
+
+.break{
+    display: flex;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+#onee{
+    width: 90px;
+    border-bottom: 2px solid gray;
+}
+span{
+    display: inline-block;
+}
+.google-auth{
+    margin-left: 43%;
+    margin-top: 5px;
+}
+img{
+    height: 30px;
+    width: 30px;
+}

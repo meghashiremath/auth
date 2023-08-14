@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: double;
+}
+.container h1 span{
+    color: rgb(185, 108, 108);
+}
+
+#heading{
+    color: rgb(41, 41, 111);
+}
+h2{
+    margin-top: 10px;
+}
